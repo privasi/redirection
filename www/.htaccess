@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule viewsource.* viewsource.php [L]
+RewriteRule style.css - [L]
+RewriteRule abuse.php - [L]
+RewriteRule .* index.php [L]

@@ -1,0 +1,65 @@
+* {
+	box-sizing: content-box;
+}
+
+body {
+	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+h2, h3 {
+	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+span.code {
+	border: 1px dashed #444;
+	background-color: #ffc;
+	padding: 0 0.3em;
+}
+
+div.error {
+	margin: 0 3em;
+	border: 1px solid #444;
+	background-color: #fcc;
+	padding: 0 1em;
+}
+
+.updates {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 15em;
+	text-align: center;
+	background: #888;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	padding: 0;
+}
+.updates p {
+	margin: 0;
+	padding: 0;
+}
+.updates a {
+	color: #fff;
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+}
+.updates a:hover {
+	text-decoration: underline;
+}
+
+.about, .purpose, .difference {
+	float: left;
+	width: 33.3333%;
+}
+
+div {
+	padding: 0 10px;
+}
+
+.contact {
+}
+.contact, .github {
+	float: left;
+	width: 49%;
+}
